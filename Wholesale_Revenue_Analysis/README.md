@@ -1,18 +1,28 @@
 # Wholesale Revenue Analysis
 
 ## Objective
-Analyse wholesale orders across warehouses and product lines, adjusting for payment fees, to understand monthly net revenue trends.
+Analyse wholesale orders by **product line**, **month**, and **warehouse**, adjusting for payment fees to calculate **net revenue**.
 
-## Tools
-- SQL (query development)
-- Jupyter Notebook (`notebook.ipynb`)
+## Dataset
+- Source: Sales data (June–August 2021)
+- Columns: order_number, date, warehouse, client_type, product_line, quantity, unit_price, total, payment, payment_fee
+- Filtered: `client_type = 'Wholesale'`
 
-## Highlights
-- Filtered orders by client type (`Wholesale` only).
-- Calculated **net revenue** as `total * (1 - payment_fee)`.
-- Grouped results by **product line, month, and warehouse**.
-- Identified month-to-month variation in wholesale revenue.
+## Method
+- SQL query used to calculate `net_revenue = total * (1 - payment_fee)`
+- Data exported as `result.csv` and analysed in Python
+- Created pivot tables and visualisations in pandas + matplotlib
+
+## Visualizations
+1. **Basic stacked bar chart**: Overall wholesale revenue by product line & warehouse
+2. **Styled stacked bar chart**: Improved formatting for presentations
+3. **Faceted stacked bar charts**: Separate charts for June, July, August
+
+## Insights
+- Central warehouse dominates revenue across most product lines
+- Engine, Frame & Body generate the largest revenues
+- Seasonal variation visible (June higher than July for some lines)
 
 ## Files
-- `notebook.ipynb` — Full analysis notebook.
-- `motorcycle.jpg` — Supporting visualisation asset.
+- `Wholesale_Revenue_Analysis.ipynb` — Notebook with full analysis & charts
+- `result.csv` — Query result data
