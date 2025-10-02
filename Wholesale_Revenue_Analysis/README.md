@@ -11,12 +11,11 @@ Analyse wholesale orders by **product line**, **month**, and **warehouse**, adju
 ## Method
 - SQL query used to calculate `net_revenue = total * (1 - payment_fee)`
 - Data exported as `result.csv` and analysed in Python
-- Created pivot tables and visualisations in pandas + matplotlib
+- Created visualisations in pandas + matplotlib
 
 ## Visualizations
-1. **Basic stacked bar chart**: Overall wholesale revenue by product line & warehouse
-2. **Styled stacked bar chart**: Improved formatting for presentations
-3. **Faceted stacked bar charts**: Separate charts for June, July, August
+1. **Styled stacked bar chart**: Overall wholesale revenue by product line & warehouse
+2. **Faceted stacked bar charts**: Separate charts for June, July, August
 
 ## Insights
 - Central warehouse dominates revenue across most product lines
