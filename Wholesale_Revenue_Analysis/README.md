@@ -18,9 +18,12 @@ Analyse wholesale orders by **product line**, **month**, and **warehouse**, adju
 2. **Faceted stacked bar charts**: Separate charts for June, July, August
 
 ## Insights
-- Central warehouse dominates revenue across most product lines
-- Engine, Frame & Body generate the largest revenues
-- Seasonal variation visible (June higher than July for some lines)
+- Central warehouse consistently generates the highest wholesale revenue.
+- Engine and Frame & Body parts are the largest revenue drivers.
+- Seasonal variation: revenue dips in July for some product lines, then rebounds in August.
+
+## Conclusion
+The company should focus on supporting the **Central warehouse** operations and expanding inventory of **high-margin product lines** such as Engine and Frame & Body parts.
 
 ## Files
 - `Wholesale_Revenue_Analysis.ipynb` — Notebook with full analysis & charts
