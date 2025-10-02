@@ -10,3 +10,5 @@ Welcome to my portfolio of data analysis projects. These projects demonstrate sk
   Statistical test of whether men's and women's World Cup matches differ in average goals scored.
 - [Crimes Data Analysis](Crimes_Data_Analysis)  
   Exploratory analysis of crime data to identify peak crime hours, night crime hotspots, and victim age group distributions.
+- [Hypothesis Test: FIFA Goals (R)](Hypothesis_Test_FIFA_Goals_R)  
+  R implementation of the same hypothesis test using `t.test()`, `dplyr`, and base R plotting.
